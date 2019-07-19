@@ -1,0 +1,33 @@
+{
+  "name": "react-events01",
+  "version": "1.0.0",
+  "description": "Создайте компонент, который содержит две кнопки и место для вывода числа.\r При клике на одну из кнопок – число в поле должно уменьшаться на единицу, при клике на другу кнопку – увеличиваться на единицу.\r Изначально число имеет значение 0.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splean101/React-Events01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splean101/React-Events01/issues"
+  },
+  "homepage": "https://github.com/splean101/React-Events01#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
